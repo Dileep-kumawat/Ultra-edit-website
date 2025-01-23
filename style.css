@@ -1,0 +1,106 @@
+       body {
+           padding: 2vh 9vw;
+           font-family: "Segoe UI";
+       }
+
+       nav {
+           display: flex;
+           justify-content: space-between;
+
+       }
+
+       nav ul {
+           display: flex;
+
+           align-items: center;
+           gap: 3vw;
+       }
+
+       nav ul li {
+           list-style-type: none;
+           font-family: "Segoe UI";
+       }
+
+       nav img {
+           height: 4vw;
+       }
+
+       .imfo {
+           text-align: center;
+       }
+
+       h2 {
+           font-size: 300%;
+       }
+
+       .imfo p {
+           font-size: medium;
+       }
+
+       /* From Uiverse.io by levxyca */
+       .imfo button {
+           font-size: 1.5rem;
+           color: #fafafa;
+           text-transform: uppercase;
+           padding: 10px 20px;
+           border-radius: 10px;
+           border: 2px solid #fafafa;
+           background: #23d9ee;
+           box-shadow: 3px 3px #c7ecf6;
+           cursor: pointer;
+           margin: 35px 0;
+       }
+
+       .imfo button:active {
+           box-shadow: none;
+           transform: translate(3px, 3px);
+       }
+       .ue{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 2vh 13vw;
+       }
+       .ue img{
+        width: 4vw;
+        padding-right: 3%;
+       }
+       .grid p{
+        font-size: 0.5vw;
+       }
+       .grid{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        text-align: center;
+        gap: 5%;
+        padding: 2vh 13vw;
+       }
+       .a{
+        font-size: 1,5vw;
+       }
+       .box{
+        background-color: rgba(236, 225, 225, 0.193);
+        border-radius: 4%;
+       }
+       .grid button {
+        font-size: 1rem;
+        color: #fafafa;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid #fafafa;
+        background: #13b618;
+        box-shadow: 3px 3px #ccf6c7c7;
+        cursor: pointer;
+        margin: 35px 0;
+    }
+
+    .grid button:active {
+        box-shadow: none;
+        transform: translate(3px, 3px);
+    }
+    @media screen and (max-width:1145px) {
+        .grid{
+            grid-template-columns: 1fr;
+        }
+    }
